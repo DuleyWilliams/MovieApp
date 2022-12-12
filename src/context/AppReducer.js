@@ -5,7 +5,7 @@ export default (state, action) => {
                 ...state,
                 watchlist: [action.payload, ...state.watchlist],
             };
-        case 'REMOVE_MOVE_FROM_WATCHLIST':
+        case 'REMOVE_MOVIE_FROM_WATCHLIST':
             return {
                 ...state,
                 watchlist: state.watchlist.filter(
