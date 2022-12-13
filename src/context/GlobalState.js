@@ -38,11 +38,11 @@ export const GlobalProvider = props => {
     };
 
     const moveToWatchlist = (movie) => {
-        dispatch({ type: "MOVE_TO_WATCHLIST", payload: movie });
+        dispatch({ type: 'MOVE_TO_WATCHLIST', payload: movie });
     };
     
       const removeFromWatched = (id) => {
-        dispatch({ type: "REMOVE_FROM_WATCHED", payload: id });
+        dispatch({ type: 'REMOVE_FROM_WATCHED', payload: id });
     };
 
     return (
